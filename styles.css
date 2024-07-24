@@ -43,7 +43,7 @@ body {
 }
 
 
-@media screen and (min-width: 768px) and ((max-width: 1024px)) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .page-container {
         background-image: linear-gradient(to left, #f2dc6e, #fa67d8);
         height: auto;
@@ -71,6 +71,13 @@ body {
         margin: 20px;
         
     }
+}
+
+@media  screen and (min-width: 768px) {
+    .navbar-list-sm {
+        display: none;
+    }
+    
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px)  {
