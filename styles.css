@@ -1,6 +1,6 @@
 body {
     font-family:  'system-ui', 'Times New Roman', Times, serif;
-    margin: 0px;
+    margin: 0;
 }
 .page-container {
     background-image: linear-gradient(to left, #f2dc6e, #fa67d8);
