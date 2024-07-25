@@ -4,32 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-         
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />    
     </head>
     <body>
-        <div class="page-container">
+        <div class="page-container" id="sectionPage">
             <nav class="navbar">
-                <div class="navbar-div">
-                    <ul class="navbar-list">
-                        <li class="navbar-list-item">Home</li>
-                        <li class="navbar-list-item">Order</li>
-                        <li class="navbar-list-item">Food</li>
-                        <li class="navbar-list-item">Restaurant</li>
-                        <li class="navbar-list-item">Testimonials</li>
-                        <li class="navbar-list-item">Contact Us</li>
-                    </ul>
-                    <div class="navbar-list">
+                <ul class="navbar-list">
+                    <div class="btn">
+                        <i class="fas fa-times icon close-btn"></i>
+                    </div>
+                    <div class="nav-list-1">
+                    <li class="navbar-list-item"><a href="#sectionPage" class="nav-link">Home</a></li>
+                    <li class="navbar-list-item"><a href="#sectionOrder"class="nav-link">Order</a></li>
+                    <li class="navbar-list-item"><a href="#" class="nav-link">Food</a></li>
+                    <li class="navbar-list-item"><a href="#" class="nav-link">Restaurant</a></li>
+                    <li class="navbar-list-item"><a href="#" class="nav-link">Testimonials</a></li>
+                    <li class="navbar-list-item"><a href="#" class="nav-link">Contact Us</a></li>
+                    </div>
+                    <div class="nav-list-2">
                         <i class="fa-solid fa-square-phone icon"></i>
                         <i class="fa-solid fa-cart-shopping icon"></i>
                     </div>
-                    <div class="navbar-list-sm">
-                        <i class="fa-solid fa-square-phone icon"></i>
-                        <i class="fa-solid fa-cart-shopping icon"></i>
-                        <i class="fa-solid fa-bars icon"></i>
-                    </div>
-                </div>   
+                </ul>
+                <div class="btn menu-div" >
+                    <i class="fa-solid fa-bars icon menu-btn"></i>
+                </div>      
             </nav>
             <div class="container-div">
                 <div class="inside-container-div">
@@ -38,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="page-container-1">
+        <div class="page-container-1" id="sectionOrder">
             <h1 class="heading-1">Order Now</h1>
             <div class="order-container">
                 <div class="order-inside-container">
@@ -58,7 +57,8 @@
                 </div>
             </div>
             <button class="button">Order</button>
-        </div>
+        </div>   
         
+        <script src="script.js"></script>
     </body>
 </html>
